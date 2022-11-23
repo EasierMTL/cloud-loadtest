@@ -1,0 +1,10 @@
+model_type: quantized
+cloud_provider: aws
+ssh_key_name: aws
+instance_type: t2.large
+
+# Locust Params
+expect_workers: 2
+users: 100
+spawn_rate: 10
+run_time: 30s
